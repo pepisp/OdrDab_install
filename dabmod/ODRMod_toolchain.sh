@@ -17,7 +17,7 @@ echo "It's time for ODR_DabMod"
 
 #UHD
 echo "Take a seat and relax, I will install UHD drivers and it will take some time"
-sudo apt-get -qq install libfftw3-dev libusb-1.0-0-dev  doxygen python-docutils python-mako cmake
+sudo apt-get -qq install libfftw3-dev libusb-1.0-0-dev  doxygen python-docutils python-mako cmake python-pip
 #git clone https://github.com/Opendigitalradio/uhd.git
 git clone git://github.com/EttusResearch/uhd.git		#This repo has proper GPS version
 cd uhd/host
