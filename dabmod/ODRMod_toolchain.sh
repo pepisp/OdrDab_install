@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get -qq install git g++ pkg-config build-essential automake autoconf libtool uuid-dev libboost-all-dev
+sudo apt-get -qq install git g++ pkg-config build-essential automake autoconf libtool uuid-dev libboost-all-dev ntp
 
 echo "Now the zeromq4-x from Github"
 git clone https://github.com/zeromq/zeromq4-x.git

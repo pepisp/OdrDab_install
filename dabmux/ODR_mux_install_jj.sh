@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get -qq install git g++ pkg-config build-essential automake autoconf libtool uuid-dev libboost-all-dev
+sudo apt-get -qq install git g++ pkg-config build-essential automake autoconf libtool uuid-dev libboost-all-dev ntp
 
 echo "Done with basic pkg's install, getting to some serious job..."
 echo "First thing is to install ODR-DabMux. Which is not so easy..."
